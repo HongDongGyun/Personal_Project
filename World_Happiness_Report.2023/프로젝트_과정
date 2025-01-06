@@ -6,11 +6,12 @@
  - World Bank ( Health Nutrition and Population Statistics, Population Estimates and Projections )
 
 데이터 전처리 with Python 
- - 1. 결측값 0으로 대체.
+ - 1. 결측값 foward fill 사용하여 대체.
  - 2. 라인 그래프 추세를 표현하기 위해 최근 10년간 데이터가 있는 국가 추출.
  - 3. World Happiness Report에서 제공하는 요소들로 이루어진 데이터, Report와 World Bank에서 가져온 건강, 인구 통계 데이터를 합친 데이터, 총 2개 데이터 준비.
- - 4. 통합된 데이터는 컬럼이 300개 이상으로 너무 많아 상관계수 0.6 이상 - 0.6 이하로 대표적인 요소 8개 추출.
- - 5. Life Ladder 순위 표현을 위해 최근년도 기준 Rank Table 생성.
+ - 4. 상관계수 측정을 위한 행열 전환.
+ - 5. 통합된 데이터는 컬럼이 300개 이상으로 너무 많아 상관계수 0.6 이상 - 0.6 이하로 대표적인 요소 8개 추출.
+ - 6. Life Ladder 순위 표현을 위해 최근년도 기준 Rank Table 생성.
 
 대시보드 제작 with Tableau & Figma 
  - 1. 대시보드에 적용할 템플릿 제작.
